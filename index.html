@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>千羽网络网站管理系统</title>
+    <meta name="keywords" content="千羽网络,18web.cn" />
+    <meta name="description" content="" />
+
+    <!-- favicon -->
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/skin/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/skin/css/docs.css">
+    <!-- bootstrap-icon -->
+    <link rel="stylesheet" href="/skin/css/all.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="/skin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/skin/css/owl.theme.default.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="/skin/css/animate.css">
+    <!-- media -->
+    <link rel="stylesheet" href="/skin/css/media.css">
+    <!-- css -->
+    <link rel="stylesheet" href="/skin/css/style.css">
+    </head>
+
+<body>
+<!-- header -->
+<nav class="navbar navbar-top navbar-expand-lg p-0 bg-blue text-white">
+    <div class="container-fluid">
+        <div class="col-6">
+            <p>欢迎来到建硕管业有限公司官方网站！</p>
+        </div>
+        <div class="col-6 d-flex justify-content-end">
+            <div class="part d-flex pe-4">
+                <div class="img pe-2">
+                    <img src="/skin/img/clock.svg" alt="">
+                </div>
+                <p>电话：400-999-4440</p>
+            </div>
+            <div class="part d-flex">
+                <div class="img pe-2">
+                    <img src="/skin/img/location.svg" alt="">
+                </div>
+                <p>地址：辽宁省盘锦市石油高新技术产业园</p>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <nav class="navbar navbar-main navbar-expand-lg p-0">
+        <div class="container-fluid">
+
+            <button class="sticky btn modal-btn border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft">
+                <i class="bi bi-list fs-4"></i>
+            </button>
+
+            <div class="col-3 left-side">
+                <!-- logo -->
+                <!-- black logo -->
+                <a href="/" class="logo default-logo">
+                    <img src="/skin/picture/logo.png" alt="">
+                </a>
+                <!-- white logo -->
+                <a href="/" class="logo sticky-logo" style="display: none;">
+                    <img src="/skin/picture/sticky-logo.png" alt="">
+                </a>
+                <!-- logo-end -->
+            </div>
+
+            <div class="col-9 d-flex justify-content-center">
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item px-4 d-flex align-items-center">
+                        <a aria-current="page" href="/" class="color">首页</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown">
+                            <a class="btn p-0 border-0" role="button">走进建硕<i class="fa-solid bi bi-chevron-down fs-7"></i></a>
+                            <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                                                <li><a class="dropdown-item border-bottom" href="/About/Introduction/">公司简介</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/About/Show/">建硕展示</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/About/Honor/">建硕荣誉</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/About/Develop/">发展历程</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/About/Culture/">企业文化</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/About/Activity/">企业活动</a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown">
+                            <a class="btn p-0 border-0" role="button">PE管材<i class="fa-solid bi bi-chevron-down fs-7"></i></a>
+                            <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-1/A/">PE给水管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-1/B/">PE燃气管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-1/C/">PE农田灌溉</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-1/D/">PE电力护套管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-1/E/">PE矿用管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-1/F/">PE非开挖管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-1/G/">PE地热泵管材</a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown">
+                            <a class="btn p-0 border-0" role="button">PE管件<i class="fa-solid bi bi-chevron-down fs-7"></i></a>
+                            <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-2/A/">PE承插管件</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-2/B/">PE电熔管件</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-2/C/">PE燃气管件</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-2/D/">PE-RTⅡ型管件</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-2/E/">PE注塑管件</a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown">
+                            <a class="btn p-0 border-0" role="button">PE-RT管<i class="fa-solid bi bi-chevron-down fs-7"></i></a>
+                            <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-RT/A/">PE-RT地热管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-RT/B/">PE-RT二型供热管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-RT/C/">PE-RT二型保温管材</a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown">
+                            <a class="btn p-0 border-0" role="button">PE复合管材<i class="fa-solid bi bi-chevron-down fs-7"></i></a>
+                            <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-3/A/">PE涂塑复合管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PE-3/B/">PE钢塑复合管材</a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown">
+                            <a class="btn p-0 border-0" role="button">PP管材<i class="fa-solid bi bi-chevron-down fs-7"></i></a>
+                            <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                                                <li><a class="dropdown-item border-bottom" href="/PP/A/">PPR</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PP/B/">PPB</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/PP/C/">PPH</a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown">
+                            <a class="btn p-0 border-0" role="button">排水管材<i class="fa-solid bi bi-chevron-down fs-7"></i></a>
+                            <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                                                <li><a class="dropdown-item border-bottom" href="/Drainage/A/">双壁波纹管材</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/Drainage/B/">钢带增强管材</a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown">
+                            <a class="btn p-0 border-0" role="button">案例教程<i class="fa-solid bi bi-chevron-down fs-7"></i></a>
+                            <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                                                <li><a class="dropdown-item border-bottom" href="/Case/Case/">施工案例</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/Case/Tutorial/">施工教程</a></li>
+                                                                <li><a class="dropdown-item border-bottom" href="/Case/News/">行业资讯</a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item px-4 d-flex align-items-center">
+                        <a aria-current="page" href="/Contact/">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<!-- Modal -->
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-grid align-items-center">
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex border-0 border-1 border-bottom w-50">
+                        <input type="text" id="searchInput" placeholder="Search ..." class="text-white form-control border-0 rounded-0">
+                        <a href="#" class="icon px-4 py-3" id="searchButton">
+                            <i class="fa-solid fa-magnifying-glass text-white fs-6"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- offcanvas -->
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <a class="nav-link active py-3 border-bottom border-gary color" aria-current="page" href="/">首页</a>
+        <!-- dropdown start-->
+        <div class="dropdown">
+            <span class="text-black">走进建硕</span>
+            <a class="btn border-0 p-0 py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-chevron-down me-5 text-black"></i>
+            </a>
+            <div class="border-bottom border-gary"></div>
+            <ul class="dropdown-menu py-0 rounded-0 border-0" style="transform: translate(-37rem, 52px) !important;">
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/Case/Case/">施工案例</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/Case/Tutorial/">施工教程</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/Case/News/">行业资讯</a></li>
+                            </ul>
+        </div>
+        <div class="dropdown">
+            <span class="text-black">PE管材</span>
+            <a class="btn border-0 p-0 py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-chevron-down me-5 text-black"></i>
+            </a>
+            <div class="border-bottom border-gary"></div>
+            <ul class="dropdown-menu py-0 rounded-0 border-0" style="transform: translate(-37rem, 52px) !important;">
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-1/A/">PE给水管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-1/B/">PE燃气管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-1/C/">PE农田灌溉</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-1/D/">PE电力护套管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-1/E/">PE矿用管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-1/F/">PE非开挖管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-1/G/">PE地热泵管材</a></li>
+                            </ul>
+        </div>
+        <div class="dropdown">
+            <span class="text-black">PE管件</span>
+            <a class="btn border-0 p-0 py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-chevron-down me-5 text-black"></i>
+            </a>
+            <div class="border-bottom border-gary"></div>
+            <ul class="dropdown-menu py-0 rounded-0 border-0" style="transform: translate(-37rem, 52px) !important;">
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-2/A/">PE承插管件</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-2/B/">PE电熔管件</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-2/C/">PE燃气管件</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-2/D/">PE-RTⅡ型管件</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-2/E/">PE注塑管件</a></li>
+                            </ul>
+        </div>
+        <div class="dropdown">
+            <span class="text-black">PE-RT管</span>
+            <a class="btn border-0 p-0 py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-chevron-down me-5 text-black"></i>
+            </a>
+            <div class="border-bottom border-gary"></div>
+            <ul class="dropdown-menu py-0 rounded-0 border-0" style="transform: translate(-37rem, 52px) !important;">
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-RT/A/">PE-RT地热管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-RT/B/">PE-RT二型供热管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-RT/C/">PE-RT二型保温管材</a></li>
+                            </ul>
+        </div>
+        <div class="dropdown">
+            <span class="text-black">PE复合管材</span>
+            <a class="btn border-0 p-0 py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-chevron-down me-5 text-black"></i>
+            </a>
+            <div class="border-bottom border-gary"></div>
+            <ul class="dropdown-menu py-0 rounded-0 border-0" style="transform: translate(-37rem, 52px) !important;">
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-3/A/">PE涂塑复合管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PE-3/B/">PE钢塑复合管材</a></li>
+                            </ul>
+        </div>
+        <div class="dropdown">
+            <span class="text-black">PP管材</span>
+            <a class="btn border-0 p-0 py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-chevron-down me-5 text-black"></i>
+            </a>
+            <div class="border-bottom border-gary"></div>
+            <ul class="dropdown-menu py-0 rounded-0 border-0" style="transform: translate(-37rem, 52px) !important;">
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PP/A/">PPR</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PP/B/">PPB</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/PP/C/">PPH</a></li>
+                            </ul>
+        </div>
+        <div class="dropdown">
+            <span class="text-black">排水管材</span>
+            <a class="btn border-0 p-0 py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-chevron-down me-5 text-black"></i>
+            </a>
+            <div class="border-bottom border-gary"></div>
+            <ul class="dropdown-menu py-0 rounded-0 border-0" style="transform: translate(-37rem, 52px) !important;">
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/Drainage/A/">双壁波纹管材</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/Drainage/B/">钢带增强管材</a></li>
+                            </ul>
+        </div>
+        <div class="dropdown">
+            <span class="text-black">案例教程</span>
+            <a class="btn border-0 p-0 py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-chevron-down me-5 text-black"></i>
+            </a>
+            <div class="border-bottom border-gary"></div>
+            <ul class="dropdown-menu py-0 rounded-0 border-0" style="transform: translate(-37rem, 52px) !important;">
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/Case/Case/">施工案例</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/Case/Tutorial/">施工教程</a></li>
+                                <li><a class="dropdown-item border-bottom border-gary py-3" href="/Case/News/">行业资讯</a></li>
+                            </ul>
+        </div>
+        <a class="nav-link active py-3 border-bottom border-gary" aria-current="page" href="/Contact/">联系我们</a>
+    </div>
+</div>
+
+
+    <section class="banner">
+    <div class="owl-carousel owl-theme owl-carousel-1 owl-loaded owl-drag">
+        <div class="owl-stage-outer">
+            <div class="owl-stage" style="transform: translate3d(-5850px, 0px, 0px); transition: 0.25s; width: 11700px;">
+
+                <div class="owl-item cloned" style="width: 1920px; margin-right: 30px;">
+                    <div class="item">
+                        <div class="card border-0 wow fadeIn" style="visibility: visible;">
+                            <img src="/skin/picture/banner1.jpg" alt="" class="card-img slider-img rounded-0 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-item cloned" style="width: 1920px; margin-right: 30px;">
+                    <div class="item">
+                        <div class="card border-0 wow fadeIn" style="visibility: visible;">
+                            <img src="/skin/picture/banner2.jpg" alt="" class="card-img rounded-0 slider-img object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- service2 -->
+
+    <section class="service2 all-margin">
+        <div class="container">
+            <div class="text-up text-center wow bounceIn">
+                <h3>产品中心</h3>
+            </div>
+            <div class="row">
+                                <div class="col-4 wow fadeInLeft">
+                    <div class="box border">
+                        <div class="sec">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/PE-1/A/50.html"><img src="/skin/picture/cp/1.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h4>大口径PE给水管材</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-4 wow fadeInLeft">
+                    <div class="box border">
+                        <div class="sec">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/PE-1/A/51.html"><img src="/skin/picture/cp/3.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h4>PE给水管材</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-4 wow fadeInLeft">
+                    <div class="box border">
+                        <div class="sec">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/PE-1/B/52.html"><img src="/skin/picture/cp/5.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h4>PE沼气管</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-4 wow fadeInLeft">
+                    <div class="box border">
+                        <div class="sec">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/PE-1/B/53.html"><img src="/skin/picture/cp/7.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h4>PE燃气管</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-4 wow fadeInLeft">
+                    <div class="box border">
+                        <div class="sec">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/PE-1/C/55.html"><img src="/skin/picture/cp/9.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h4>农田灌溉PE管</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-4 wow fadeInLeft">
+                    <div class="box border">
+                        <div class="sec">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/PE-1/C/56.html"><img src="/skin/picture/cp/11.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <h4>园林绿化PE管</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about all-padding bg-gray">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-6 wow fadeInLeft">
+                    <div class="img">
+                        <img src="/skin/picture/about.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 ps-6 fadeInRight">
+                    <div class="text">
+                        <p class="color">盘锦建硕管业有限公司</p>
+                        <h3>企业建业</h3>
+                        <p>盘锦建硕管业有限公司是基于国企改制后的新型企业，座落于全球红色海岸线“红海滩”所在地——辽宁盘锦。是一家专注于生产研发PE、PE-RT、PP、PP-R、PVC管材管件等新型建材领域企业。</p>
+                        <a href="/About/" class="text-decoration-none">
+                            <div class="main-btn btn border-0 rounded-0 p-0 d-flex justify-content-center align-items-center">查看更多</div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial -->
+
+    <section class="testimonial all-margin">
+        <div class="container">
+            <div class="text-up text-center wow bounceIn">
+                <h3>施工教程</h3>
+            </div>
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme owl-carousel-2">
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">PE管材在我们的生活中非常常见，可见用途很广泛，各行各业中都有它的存在，下面跟着建硕管业一起来了解下它的主要用途。1、城镇供水　　PE管首具有安全、卫生、施工方便等综合优...</p>
+                                <h4 class="mt-4 mb-0">PE管材的主要用途</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">中国已经是世界上最大的建筑材料生产国和消费国，而管材所占比重也是居高不下。不同的管件要用不同的管材，管材的好坏直接决定了管件的质量。建筑工程、电厂、化工厂等多用此类...</p>
+                                <h4 class="mt-4 mb-0">管材的这些分类和用途，你知道多少？</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">D：一般是指管道的内径，管道内壁内圆的直径。 DN：是指公称直径，又称平均外径，既不是管道的外径也不是内径，而是外径和内径的平均值。这是管道及其附件的标准化直径系列。采用公称直...</p>
+                                <h4 class="mt-4 mb-0">盘锦建硕管材上标注的DN，De，Φ，PN，SDR都有什么区别</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">在给排水工程中， 管材扮演着至关重要的角色，它们是确保系统顺畅运行的关键。然而，你是否真正了解这些常用管材的多样性与独特性？每种管材都有其特定的应用场景和功能，掌握它们的...</p>
+                                <h4 class="mt-4 mb-0">盘锦建硕管材常见管材剖析：性能、用途与特点全览</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">各类管材大揭秘：你了解它们的独特应用吗？在给排水工程中，管材的选择至关重要。你是否对这些常用的管材有所了解呢？每一种管材都有其独特的作用和适用场景。接下来，让我们一起探索...</p>
+                                <h4 class="mt-4 mb-0">盘锦建硕管业各类管材大揭秘：你了解它们的独特应用吗？</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">盘锦PVC管,盘锦PU管,盘锦PE管,盘锦PP管
+很多客户在购买塑料管材的时候不知道选择什么管材好，目前市面上管材的类型有很多种，包括PVC管、PU管、PE管、PP管、PPR管等每种产品的</p>
+                                <h4 class="mt-4 mb-0">盘锦建硕管业PVC管、PU管、PE管、PP管有那些区别</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">盘锦PE给水管,盘锦PE排水管,盘锦PE燃气管,盘锦PE电力护套管,盘锦克拉管
+PE管是日常生活中的常见管材你知道它们是如何分类的吗？PE管材按用途可以分为给水用聚乙烯管材，排水用</p>
+                                <h4 class="mt-4 mb-0">盘锦建硕管业PE管材的分类</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">PPR管道的焊接步骤对于PPR管道的安装，我们可以不那么专业，但是了解最基本的焊接步骤可以帮助我们更好的查验水管的安装是否符合规范，从而水管的安全使用能够得到保障。1
+
+
+【管...</p>
+                                <h4 class="mt-4 mb-0">PPR管道的焊接步骤</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">高密度耐热聚乙烯（PE-RTⅡ）管道在供热上的应用集中供暖能源综合利用率高，便于管理，是目前我国北方地区较普遍的供暖方式。从80年代末开始，市政热力管道迎来了聚
+
+
+【管材服务:400...</p>
+                                <h4 class="mt-4 mb-0">（PE-RTⅡ）管道在供热上的应用</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                                                <div class="item wow fadeIn">
+                            <div class="box border">
+                                <p class="text-capitalize">电熔管件，一般指的是能够经过电流，从而形成一定熔化温度，起到很好的连接作用的管材，这一种管材在目前很多领域内均得到广泛的应用，具有很大的市场发展潜力。那么在安装电熔管件的...</p>
+                                <h4 class="mt-4 mb-0">电熔管件在安装过程中需要了解的常识</h4>
+                                <p>2025-05-22 </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- blog -->
+
+    <section class="blog all-margin">
+        <div class="container">
+            <div class="text-up text-center wow bounceIn">
+                <h3>施工案例</h3>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme owl-carousel-3">
+
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/133.html"><img src="/skin/picture/case/28.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>唐山海洋养殖防浪堤</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/132.html"><img src="/skin/picture/case/27.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>海洋养殖网箱</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/131.html"><img src="/skin/picture/case/26.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>华能丹东电厂给水管更换工程</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/130.html"><img src="/skin/picture/case/25.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>吉林省吉林市自来水水工程</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/129.html"><img src="/skin/picture/case/24.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>锦州饮用水工程</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/128.html"><img src="/skin/picture/case/23.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>辽宁阜新城市水源工程</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/127.html"><img src="/skin/picture/case/22.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>辽宁沈阳世博园海洋馆给水工程</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/126.html"><img src="/skin/picture/case/21.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>盘锦市农村饮水工程</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/125.html"><img src="/skin/picture/case/20.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>大庆石化燃气工程</h4>
+                                </a>
+                            </div>
+                        </div>
+                                                <div class="item border wow fadeIn">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="/Case/Case/124.html"><img src="/skin/picture/case/19.jpg" alt="" class="object-fit-cover">
+                                        <div class="blue-box"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-info bg-white">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4>白城市供热改造工程</h4>
+                                </a>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+<section class="footer bg-blue">
+    <div class="container padding-footer">
+
+        <div class="row up-row">
+
+            <!-- 1 -->
+            <div class="col-3 main-col hide-footer">
+                <div>
+                    <a href="/" class="text-decoration-none">
+                        <h4 class="text-white text-capitalize">建硕管业</h4>
+                    </a>
+                    <form id="subscribeForm">
+                        <div class="footer-btn">
+                            <img src="/skin/picture/ma.jpg">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <!-- accordion1 -->
+            <div class="col-3 hide-footerr">
+                <div class="accordion">
+                    <div class="accordion-item border-0 rounded-0">
+                        <div class="accordion-header">
+                            <button class="accordion-button accordion-footer collapsed justify-content-center p-0 text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFooterOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseFooterOne">
+                                建硕管业
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-3 main-col hide-footer d-grid justify-content-center">
+                <div>
+                    <a class="text-decoration-none">
+                        <h4 class="text-white text-capitalize">走进建硕</h4>
+                    </a>
+                    <ul class="p-0 m-0">
+                                                <li class="list-group-item"><a href="/About/Introduction/" title="公司简介" class="text-decoration-none">公司简介</a></li>
+                                                <li class="list-group-item"><a href="/About/Show/" title="建硕展示" class="text-decoration-none">建硕展示</a></li>
+                                                <li class="list-group-item"><a href="/About/Honor/" title="建硕荣誉" class="text-decoration-none">建硕荣誉</a></li>
+                                                <li class="list-group-item"><a href="/About/Develop/" title="发展历程" class="text-decoration-none">发展历程</a></li>
+                                                <li class="list-group-item"><a href="/About/Culture/" title="企业文化" class="text-decoration-none">企业文化</a></li>
+                                                <li class="list-group-item"><a href="/About/Activity/" title="企业活动" class="text-decoration-none">企业活动</a></li>
+                                            </ul>
+                </div>
+            </div>
+
+            <!-- accordion2 -->
+            <div class="col-3 hide-footerr">
+                <div class="accordion">
+                    <div class="accordion-item border-0 rounded-0">
+                        <div class="accordion-header">
+                            <button class="accordion-button accordion-footer collapsed justify-content-center p-0 text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFooterTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseFooterTwo">
+                                走进建硕
+                            </button>
+                        </div>
+                        <div id="panelsStayOpen-collapseFooterTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body p-0">
+                                <ul class="p-0 m-0">
+                                                                        <li class="list-group-item"><a href="/About/Introduction/" title="公司简介" class="text-decoration-none">公司简介</a></li>
+                                                                        <li class="list-group-item"><a href="/About/Show/" title="建硕展示" class="text-decoration-none">建硕展示</a></li>
+                                                                        <li class="list-group-item"><a href="/About/Honor/" title="建硕荣誉" class="text-decoration-none">建硕荣誉</a></li>
+                                                                        <li class="list-group-item"><a href="/About/Develop/" title="发展历程" class="text-decoration-none">发展历程</a></li>
+                                                                        <li class="list-group-item"><a href="/About/Culture/" title="企业文化" class="text-decoration-none">企业文化</a></li>
+                                                                        <li class="list-group-item"><a href="/About/Activity/" title="企业活动" class="text-decoration-none">企业活动</a></li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 2 -->
+            <div class="col-3 main-col hide-footer d-grid justify-content-center">
+                <div>
+                    <a class="text-decoration-none">
+                        <h4 class="text-white text-capitalize">产品中心</h4>
+                    </a>
+                    <ul class="p-0 m-0">
+
+                        <li class="list-group-item"><a href="/PE-1/" title="PE管材" class="text-decoration-none">PE管材</a></li>
+                        <li class="list-group-item"><a href="/PE-2/" title="PE管件" class="text-decoration-none">PE管件</a></li>
+                        <li class="list-group-item"><a href="/PE-RT/" title="PE-RT管" class="text-decoration-none">PE-RT管</a></li>
+                        <li class="list-group-item"><a href="/PE-3/" title="PE复合管材" class="text-decoration-none">PE复合管材</a></li>
+                        <li class="list-group-item"><a href="/PP/" title="PP管材" class="text-decoration-none">PP管材</a></li>
+                        <li class="list-group-item"><a href="/Drainage/" title="排水管材" class="text-decoration-none">排水管材</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!-- accordion2 -->
+            <div class="col-3 hide-footerr">
+                <div class="accordion">
+                    <div class="accordion-item border-0 rounded-0">
+                        <div class="accordion-header">
+                            <button class="accordion-button accordion-footer collapsed justify-content-center p-0 text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFooterThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseFooterThree">
+                                产品中心
+                            </button>
+                        </div>
+                        <div id="panelsStayOpen-collapseFooterThree" class="accordion-collapse collapse">
+                            <div class="accordion-body p-0">
+                                <ul class="p-0 m-0">
+                                    <li class="list-group-item"><a href="/PE-1/" title="PE管材" class="text-decoration-none">PE管材</a></li>
+                                    <li class="list-group-item"><a href="/PE-2/" title="PE管件" class="text-decoration-none">PE管件</a></li>
+                                    <li class="list-group-item"><a href="/PE-RT/" title="PE-RT管" class="text-decoration-none">PE-RT管</a></li>
+                                    <li class="list-group-item"><a href="/PE-3/" title="PE复合管材" class="text-decoration-none">PE复合管材</a></li>
+                                    <li class="list-group-item"><a href="/PP/" title="PP管材" class="text-decoration-none">PP管材</a></li>
+                                    <li class="list-group-item"><a href="/Drainage/" title="排水管材" class="text-decoration-none">排水管材</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- 3 -->
+            <div class="col-3 main-col hide-footer d-grid justify-content-center mt-992-4">
+                <div>
+                    <a href="#" class="text-decoration-none">
+                        <h4 class="text-white text-capitalize">联系我们</h4>
+                    </a>
+                    <p class="text-capitalize text-white mb-0">电话 <br>0427-2878818/400-999-4440</p>
+                    <p class="text-capitalize text-white my-3">联系人 <br>苏经理</p>
+                    <p class="text-capitalize text-white">地址 <br>辽宁省盘锦市石油高新技术产业园</p>
+                </div>
+            </div>
+
+            <!-- accordion3 -->
+            <div class="col-3 hide-footerr">
+                <div class="accordion">
+                    <div class="accordion-item border-0 rounded-0">
+                        <div class="accordion-header">
+                            <button class="accordion-button accordion-footer collapsed justify-content-center p-0 text-capitalize" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFooterFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFooterFour">
+                                联系我们
+                            </button>
+                        </div>
+                        <div id="panelsStayOpen-collapseFooterFour" class="accordion-collapse collapse">
+                            <div class="accordion-body p-0">
+                                <p class="text-capitalize text-white mb-0">电话 <br>0427-2878818/400-999-4440</p>
+                                <p class="text-capitalize text-white my-3">联系人 <br>苏经理</p>
+                                <p class="text-capitalize text-white">地址 <br>辽宁省盘锦市石油高新技术产业园</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row border-top border-blue footer-end">
+            <div class="col-12 d-flex justify-content-center py-2 text-white">
+                <p class="mb-0 py-3">Copyright &copy; 2025.建硕管业 All rights reserved.<a target="_blank" href="https://beian.miit.gov.cn">辽ICP备12345678号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;技术支持：<a target="_blank" href="https://www.0427qy.com">千羽网络</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fix-btn">
+        <a href="#" class="btn position-fixed border-0 rounded-0">
+            <i class="bi bi-chevron-up"></i>
+        </a>
+    </div>
+</section>
+
+    <!-- all -->
+    <script src="/skin/js/jquery.min.js"></script>
+
+    <!-- owl-carousel -->
+    <script src="/skin/js/owl.carousel.min.js"></script>
+
+    <!-- animation -->
+    <script src="/skin/js/wow.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="/skin/js/bootstrap.bundle.min.js"></script>
+
+    <!-- swiper-js -->
+    <script src="/skin/js/swiper.js"></script>
+
+    <!-- loader -->
+    <script src="/skin/js/loader.js"></script>
+
+    <!-- header -->
+    <script src="/skin/js/header.js"></script>
+
+    <!-- footer -->
+    <script src="/skin/js/footer.js"></script>
+
+    <!-- custom -->
+    <script src="/skin/js/custom.js"></script>
+
+
+</body>
+
+</html>
